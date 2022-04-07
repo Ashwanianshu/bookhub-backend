@@ -1,0 +1,21 @@
+GET http://localhost:3000/books/?search=ch&read_status=Read
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhaHVsIiwiaWF0IjoxNjQ5MzMyNDEyfQ.5a4jgGIfSKINHx8LPsMwFc3GH2MYP6wVqpCz2HpDIew
+
+###
+GET http://localhost:3000/topbooks/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhaHVsIiwiaWF0IjoxNjQ5MzMyNDEyfQ.5a4jgGIfSKINHx8LPsMwFc3GH2MYP6wVqpCz2HpDIew
+
+###
+GET http://localhost:3000/books/54402549-a4bd-4c99-a176-bd795d47173a/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhaHVsIiwiaWF0IjoxNjQ5MzMyNDEyfQ.5a4jgGIfSKINHx8LPsMwFc3GH2MYP6wVqpCz2HpDIew
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{    
+    "username": "rahul",
+    "password": "rahul@2021"
+}
